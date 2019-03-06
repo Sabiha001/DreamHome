@@ -1,0 +1,96 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+.container{
+	background-image: url(../Image/home.jpeg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	min-height: 500px;
+
+
+}
+.wrapper{
+	width: 80%
+	margin:0 auto;
+	overflow: hidden;
+}
+
+.header{
+	background-color: white;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-right: 10px;
+	margin-left: 10px;
+	overflow: hidden;
+	
+
+	}
+.logo{
+	width: 20%;
+	float: left;
+	padding: 20px;
+
+}
+
+.logo img{
+	width: 100%;
+	height: 100px;
+
+}
+.menu{
+width:70%;
+	float: right;
+	
+}
+	
+.menu ul{
+float: right;
+}
+.menu ul li{
+	list-style-type: none;
+	float: left;
+	margin-right: 40px;
+}
+.menu ul li a{
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+	color: block;
+	transition: .5s;
+	display:block;
+	padding: 20px;
+	margin-top:40px;
+	font-family: sans-serif;
+}
+
+.menu ul li a:hover{
+color: blue;
+}
+
+.banner-content{
+	width: 30%;
+	background-color: rgb(153, 51, 51, .5);
+	height: 300px;
+	margin: 0 10PX;
+
+}
+.banner-content h1{
+	font-family: sans-serif;
+	padding-top:50px;
+	color: white;
+	padding-left: 20px;
+}
+.banner-content h3{
+	font-family: sans-serif;
+	padding-top:0px;
+	color: white;
+	padding-left: 20px;
+	font-weight: 300;
+}
+.banner-content button{
+	padding-left: 20px;
+	margin-left: 20px;
+}
